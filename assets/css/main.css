@@ -691,6 +691,7 @@ h4,
   h4,
   .h4 {
     font-size: 22px;
+            margin-top: -130px;
   }
 }
 h4.medium,
@@ -934,7 +935,7 @@ textarea:focus {
 @media only screen and (max-width: 767px) {
   .section-space {
     padding-top: 70px;
-    padding-bottom: 70px;
+        padding-bottom: 50px;
   }
 }
 
@@ -8714,7 +8715,7 @@ html.lenis body {
   display: inline-flex;
 }
 .main-menu > ul > li:hover > a {
-  color: var(--rs-theme-orange);
+  color: #8b070e;;
 }
 .main-menu > ul > li:hover > a::before {
   opacity: 1;
@@ -8741,8 +8742,8 @@ html.lenis body {
   list-style: none;
 }
 .main-menu li a {
-  font-size: 18px;
-  font-weight: 500;
+font-size: 22px;
+    font-weight: bold;
   line-height: 1;
   color: var(--rs-text-primary);
   padding: 40px 20px;
@@ -14511,7 +14512,7 @@ html.lenis body {
 }
 .rs-feature-three {
   position: relative;
-  padding: 80px 0 90px;
+  padding: 42px 0 90px
 }
 .rs-feature-three .rs-feature-bg-thumb {
   position: absolute;
